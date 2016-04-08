@@ -21,27 +21,48 @@ h1 {
 }
 
 h1 a {
-
   color: #000;
 }
 
 h1 a:hover {
+  text-decoration: none!important;
+  color: pink;
+}
+
+.red {
   font-size: 110%;
   text-decoration: none;
   color: red;
-  text-shadow: 1px 2px 35px red!important;
+  text-shadow: 1px 1px 30px red!important;
 }
 
 h2 {
   text-align: center;
+  color:red;
   font-size: 50px;
   font-family:"Happy_brown_cat_shadow";
+}
+
+.col-s-4 h2:hover {
+  color: red;
+
+}
+
+.col-s-4 label:hover {
+  color: pink;
 }
 
 .row {
   max-width: 80%;
   margin: auto;
   text-align: center;
+}
+
+.row1 {
+  border: 4px double red;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
 }
 
 .col-s-4 {
@@ -54,12 +75,29 @@ label {
   display: block!important;
   text-align: left;
   width: 130px;
+  font-size: 120%;
   margin: auto;
   margin-left: 30px;
   font-weight: 200!important;
+  cursor: w-resize!important;
 }
 
+input:hover {
+  cursor: crosshair!important;
+}
 
+button {
+  margin-bottom: 20px!important;
+  font-size: 250%!important;
+  vertical-align: middle!important;
+  color: red!important;
+  font-family:"Happy_brown_cat_shadow";
+  border-color: pink!important;
+}
+
+button:hover {
+  background-color: pink!important;
+}
 
 /* PIZZA */
 
@@ -70,3 +108,27 @@ label {
   border-radius: 100%;
   border: 1px solid #ccc;
 }
+
+
+/* pizza try 1 */
+/*
+.pizza {
+
+}
+
+#pieSlice2 {
+ -webkit-transform:rotate(150deg);
+ -moz-transform:rotate(150deg);
+ -o-transform:rotate(150deg);
+ transform:rotate(150deg);
+}
+
+#pieSlice2 .pie {
+ background-color: #ccbb87;
+ -webkit-transform:rotate(40deg);
+ -moz-transform:rotate(40deg);
+ -o-transform:rotate(40deg);
+ transform:rotate(40deg);
+}
+
+*/

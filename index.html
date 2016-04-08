@@ -10,91 +10,102 @@
   </head>
 
   <body>
-    <div class="container-fluid hero">
-      <h1>A <a id="piz" href="index.html">Pizza</a> My <a href="index.html"><img id="hart" src="images/pizza.jpg" width=100></a></h1>
+    <div class="container-fluid">
+      <header>
+        <h1>A <a id="piz" href="index.html">Pizza</a> My <a href="index.html"><img id="hart" src="images/pizza.jpg" width=100></a></h1>
+      </header>
+        <div class="row row1">
+          <form id="newOrder">
 
-      <div class="row row1">
-
-        <div class="col-s-4" id="base">
-          <h2>Base</h2>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" id="sansGluten">
-              Sans gluten
-            </label>
-            <label>
-              <input type="checkbox" value="" id="gluten">
-              Glutenous
-            </label>
-          </div>
-        </div>
-
-        <div class="col-s-4" id="sauce">
-          <h2>Sauce</h2>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" id="marinara">
-              Marinara
-            </label>
-            <label>
-              <input type="checkbox" value="" id="queso">
-              Queso
-            </label>
-            <label>
-              <input type="checkbox" value="" id="bbq">
-              Spicy BBQ
-            </label>
-            <label>
-              <input type="checkbox" value="" id="noSauce">
-              No Sauce
-            </label>
-          </div>
-        </div>
-
-        <div class="col-s-4" id="top">
-          <h2>Top</h2>
-            <label>
-              <input type="checkbox" value="" id="peppers">
-              Banana peppers
-            </label>
-            <label>
-              <input type="checkbox" value="" id="pineapple">
-              Pineapple
-            </label>
-            <label>
-              <input type="checkbox" value="" id="pepperoni">
-              Pepperoni
-            </label>
-            <label>
-              <input type="checkbox" value="" id="sausage">
-              Sausage
-            </label>
-          </div>
-
-          <div class="col-s-4" id="size">
-            <h2>Size</h2>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="" id="small">
-                Small
-              </label>
-              <label>
-                <input type="checkbox" value="" id="medium">
-                Medium
-              </label>
-              <label>
-                <input type="checkbox" value="" id="large">
-                Large
-              </label>
+            <div class="col-s-4">
+              <h2>Base</h2>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="11" class="base" id="sansGluten">
+                  Sans gluten
+                </label>
+                <label>
+                  <input type="checkbox" value="10" class="base" id="gluten">
+                  Glutenous
+                </label>
+              </div>
             </div>
+
+            <div class="col-s-4">
+              <h2>Sauce</h2>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="1" class="sauce" id="marinara">
+                  Marinara
+                </label>
+                <label>
+                  <input type="checkbox" value="1" class="sauce" id="queso">
+                  Queso
+                </label>
+                <label>
+                  <input type="checkbox" value="1" class="sauce" id="bbq">
+                  Spicy BBQ
+                </label>
+                <label>
+                  <input type="checkbox" value="0" id="noSauce">
+                  No Sauce
+                </label>
+              </div>
+            </div>
+
+            <div class="col-s-4">
+              <h2>Top</h2>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="1" class="top" id="peppers">
+                    Banana peppers
+                  </label>
+                  <label>
+                    <input type="checkbox" value="1" class="top" id="pineapple">
+                    Pineapple
+                  </label>
+                  <label>
+                    <input type="checkbox" value="1" class="top" id="pepperoni">
+                    Pepperoni
+                  </label>
+                  <label>
+                    <input type="checkbox" value="1" class="top" id="sausage">
+                    Sausage
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-s-4">
+                <h2>Size</h2>
+                <div class="checkbox" id="size">
+                  <label>
+                    <input type="checkbox" value="3" name="size" class="size" id="small">
+                    Small
+                  </label>
+                  <label>
+                    <input type="checkbox" value="5"  name="size" class="size" id="medium">
+                    Medium
+                  </label>
+                  <label>
+                    <input type="checkbox" value="6"  name="size" class="size" id="large">
+                    Large
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-default">Order</button>
+            </form> <!-- ends the form-->
+          </div> <!-- ends the first row -->
+
+        <!-- <div class="row row2">
+          <div class="col-s-8" id="pizza"> -->
+
+          <div class="pieContainer">
+           <div class="pieBackground"></div>
+           <div id="pieSlice1" class="hold"><div class="pie"></div></div>
           </div>
-      </div> <!-- ends the first row -->
 
-      <div class="row row2">
-        <div class="col-s-8" id="pizza">
-
-        </div>
-      </div> <!-- ends the pizza row-->
+          </div>
+        </div> <!-- ends the pizza row-->
 
     </div>
   </body>
