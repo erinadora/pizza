@@ -62,6 +62,7 @@ h2 {
   border: 4px double red;
   padding: 10px;
   margin-bottom: 40px;
+  background-color: #FFFAFB;
   border-radius: 5px;
 }
 
@@ -92,11 +93,13 @@ button {
   vertical-align: middle!important;
   color: red!important;
   font-family:"Happy_brown_cat_shadow";
-  border-color: pink!important;
+  border: 2px solid red!important;
+  background-color: #FFFAFB!important;
 }
 
 button:hover {
-  background-color: pink!important;
+  color: pink!important;
+  border: 2px solid pink!important;
 }
 
 /* PIZZA */
@@ -107,28 +110,38 @@ button:hover {
   margin: auto;
   border-radius: 100%;
   border: 1px solid #ccc;
+  /*-moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  clip: rect(0px, 50px, 100px, 0px);*/
 }
 
+/*#pieSliceBlue2  {
+  background-color: #fff;
+  position: absolute;
+  border: 1px solid #000;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+}*/
 
-/* pizza try 1 */
-/*
-.pizza {
-
+.tote {
+  font-family:"Happy_brown_cat_shadow";
+  font-size: 80px;
+  margin: auto;
+  text-align: center;
 }
 
-#pieSlice2 {
- -webkit-transform:rotate(150deg);
- -moz-transform:rotate(150deg);
- -o-transform:rotate(150deg);
- transform:rotate(150deg);
+.pizz {
+  background-image:url("../images/dealwit.gif");
+  background-repeat: none;
+  background-size:cover;
+  background-position: center;
 }
 
-#pieSlice2 .pie {
- background-color: #ccbb87;
- -webkit-transform:rotate(40deg);
- -moz-transform:rotate(40deg);
- -o-transform:rotate(40deg);
- transform:rotate(40deg);
+p {
+  margin: 20px;
+  text-align: center;
 }
-
-*/
